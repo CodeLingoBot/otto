@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// first
+// Test_underscore_arrays_0: first
 func Test_underscore_arrays_0(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -29,7 +29,7 @@ func Test_underscore_arrays_0(t *testing.T) {
 	})
 }
 
-// rest
+// Test_underscore_arrays_1: rest
 func Test_underscore_arrays_1(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -51,7 +51,7 @@ func Test_underscore_arrays_1(t *testing.T) {
 	})
 }
 
-// initial
+// Test_underscore_arrays_2: initial
 func Test_underscore_arrays_2(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -69,7 +69,7 @@ func Test_underscore_arrays_2(t *testing.T) {
 	})
 }
 
-// last
+// Test_underscore_arrays_3: last
 func Test_underscore_arrays_3(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -91,7 +91,7 @@ func Test_underscore_arrays_3(t *testing.T) {
 	})
 }
 
-// compact
+// Test_underscore_arrays_4: compact
 func Test_underscore_arrays_4(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -106,7 +106,7 @@ func Test_underscore_arrays_4(t *testing.T) {
 	})
 }
 
-// flatten
+// Test_underscore_arrays_5: flatten
 func Test_underscore_arrays_5(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -123,7 +123,7 @@ func Test_underscore_arrays_5(t *testing.T) {
 	})
 }
 
-// without
+// Test_underscore_arrays_6: without
 func Test_underscore_arrays_6(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -143,7 +143,7 @@ func Test_underscore_arrays_6(t *testing.T) {
 	})
 }
 
-// uniq
+// Test_underscore_arrays_7: uniq
 func Test_underscore_arrays_7(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -173,7 +173,7 @@ func Test_underscore_arrays_7(t *testing.T) {
 	})
 }
 
-// intersection
+// Test_underscore_arrays_8: intersection
 func Test_underscore_arrays_8(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -190,7 +190,7 @@ func Test_underscore_arrays_8(t *testing.T) {
 	})
 }
 
-// union
+// Test_underscore_arrays_9: union
 func Test_underscore_arrays_9(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -207,7 +207,7 @@ func Test_underscore_arrays_9(t *testing.T) {
 	})
 }
 
-// difference
+// Test_underscore_arrays_10: difference
 func Test_underscore_arrays_10(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -224,7 +224,7 @@ func Test_underscore_arrays_10(t *testing.T) {
 	})
 }
 
-// zip
+// Test_underscore_arrays_11: zip
 func Test_underscore_arrays_11(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -239,7 +239,7 @@ func Test_underscore_arrays_11(t *testing.T) {
 	})
 }
 
-// object
+// Test_underscore_arrays_12: object
 func Test_underscore_arrays_12(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -263,7 +263,7 @@ func Test_underscore_arrays_12(t *testing.T) {
 	})
 }
 
-// indexOf
+// Test_underscore_arrays_13: indexOf
 func Test_underscore_arrays_13(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -297,7 +297,7 @@ func Test_underscore_arrays_13(t *testing.T) {
 	})
 }
 
-// lastIndexOf
+// Test_underscore_arrays_14: lastIndexOf
 func Test_underscore_arrays_14(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -323,7 +323,7 @@ func Test_underscore_arrays_14(t *testing.T) {
 	})
 }
 
-// range
+// Test_underscore_arrays_15: range
 func Test_underscore_arrays_15(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()

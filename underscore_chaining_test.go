@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// map/flatten/reduce
+// Test_underscore_chaining_0: map/flatten/reduce
 func Test_underscore_chaining_0(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -31,7 +31,7 @@ func Test_underscore_chaining_0(t *testing.T) {
 	})
 }
 
-// select/reject/sortBy
+// Test_underscore_chaining_1: select/reject/sortBy
 func Test_underscore_chaining_1(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -52,7 +52,7 @@ func Test_underscore_chaining_1(t *testing.T) {
 	})
 }
 
-// select/reject/sortBy in functional style
+// Test_underscore_chaining_2: select/reject/sortBy in functional style
 func Test_underscore_chaining_2(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -73,7 +73,7 @@ func Test_underscore_chaining_2(t *testing.T) {
 	})
 }
 
-// reverse/concat/unshift/pop/map
+// Test_underscore_chaining_3: reverse/concat/unshift/pop/map
 func Test_underscore_chaining_3(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()

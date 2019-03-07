@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// each
+// Test_underscore_collections_0: each
 func Test_underscore_collections_0(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -42,7 +42,7 @@ func Test_underscore_collections_0(t *testing.T) {
 	})
 }
 
-// map
+// Test_underscore_collections_1: map
 func Test_underscore_collections_1(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -82,7 +82,7 @@ func Test_underscore_collections_1(t *testing.T) {
 	})
 }
 
-// reduce
+// Test_underscore_collections_2: reduce
 func Test_underscore_collections_2(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -121,7 +121,7 @@ func Test_underscore_collections_2(t *testing.T) {
 	})
 }
 
-// reduceRight
+// Test_underscore_collections_3: reduceRight
 func Test_underscore_collections_3(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -190,7 +190,7 @@ func Test_underscore_collections_3(t *testing.T) {
 	})
 }
 
-// find
+// Test_underscore_collections_4: find
 func Test_underscore_collections_4(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -205,7 +205,7 @@ func Test_underscore_collections_4(t *testing.T) {
 	})
 }
 
-// detect
+// Test_underscore_collections_5: detect
 func Test_underscore_collections_5(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -219,7 +219,7 @@ func Test_underscore_collections_5(t *testing.T) {
 	})
 }
 
-// select
+// Test_underscore_collections_6: select
 func Test_underscore_collections_6(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -236,7 +236,7 @@ func Test_underscore_collections_6(t *testing.T) {
 	})
 }
 
-// reject
+// Test_underscore_collections_7: reject
 func Test_underscore_collections_7(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -258,7 +258,7 @@ func Test_underscore_collections_7(t *testing.T) {
 	})
 }
 
-// all
+// Test_underscore_collections_8: all
 func Test_underscore_collections_8(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -279,7 +279,7 @@ func Test_underscore_collections_8(t *testing.T) {
 	})
 }
 
-// any
+// Test_underscore_collections_9: any
 func Test_underscore_collections_9(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -304,7 +304,7 @@ func Test_underscore_collections_9(t *testing.T) {
 	})
 }
 
-// include
+// Test_underscore_collections_10: include
 func Test_underscore_collections_10(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -320,7 +320,7 @@ func Test_underscore_collections_10(t *testing.T) {
 	})
 }
 
-// invoke
+// Test_underscore_collections_11: invoke
 func Test_underscore_collections_11(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -336,7 +336,7 @@ func Test_underscore_collections_11(t *testing.T) {
 	})
 }
 
-// invoke w/ function reference
+// Test_underscore_collections_12: invoke w/ function reference
 func Test_underscore_collections_12(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -352,7 +352,7 @@ func Test_underscore_collections_12(t *testing.T) {
 	})
 }
 
-// invoke when strings have a call method
+// Test_underscore_collections_13: invoke when strings have a call method
 func Test_underscore_collections_13(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -375,7 +375,7 @@ func Test_underscore_collections_13(t *testing.T) {
 	})
 }
 
-// pluck
+// Test_underscore_collections_14: pluck
 func Test_underscore_collections_14(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -389,7 +389,7 @@ func Test_underscore_collections_14(t *testing.T) {
 	})
 }
 
-// where
+// Test_underscore_collections_15: where
 func Test_underscore_collections_15(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -408,7 +408,7 @@ func Test_underscore_collections_15(t *testing.T) {
 	})
 }
 
-// findWhere
+// Test_underscore_collections_16: findWhere
 func Test_underscore_collections_16(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -425,7 +425,7 @@ func Test_underscore_collections_16(t *testing.T) {
 	})
 }
 
-// max
+// Test_underscore_collections_17: max
 func Test_underscore_collections_17(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -450,7 +450,7 @@ func Test_underscore_collections_17(t *testing.T) {
 	})
 }
 
-// min
+// Test_underscore_collections_18: min
 func Test_underscore_collections_18(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -479,7 +479,7 @@ func Test_underscore_collections_18(t *testing.T) {
 	})
 }
 
-// sortBy
+// Test_underscore_collections_19: sortBy
 func Test_underscore_collections_19(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -524,7 +524,7 @@ func Test_underscore_collections_19(t *testing.T) {
 	})
 }
 
-// groupBy
+// Test_underscore_collections_20: groupBy
 func Test_underscore_collections_20(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -562,7 +562,7 @@ func Test_underscore_collections_20(t *testing.T) {
 	})
 }
 
-// countBy
+// Test_underscore_collections_21: countBy
 func Test_underscore_collections_21(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -600,7 +600,7 @@ func Test_underscore_collections_21(t *testing.T) {
 	})
 }
 
-// sortedIndex
+// Test_underscore_collections_22: sortedIndex
 func Test_underscore_collections_22(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -627,7 +627,7 @@ func Test_underscore_collections_22(t *testing.T) {
 	})
 }
 
-// shuffle
+// Test_underscore_collections_23: shuffle
 func Test_underscore_collections_23(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -643,7 +643,7 @@ func Test_underscore_collections_23(t *testing.T) {
 	})
 }
 
-// toArray
+// Test_underscore_collections_24: toArray
 func Test_underscore_collections_24(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -673,7 +673,7 @@ func Test_underscore_collections_24(t *testing.T) {
 	})
 }
 
-// size
+// Test_underscore_collections_25: size
 func Test_underscore_collections_25(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()

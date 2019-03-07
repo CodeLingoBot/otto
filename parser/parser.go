@@ -101,7 +101,7 @@ func _newParser(filename, src string, base int, sm *sourcemap.Consumer) *_parser
 	}
 }
 
-// Returns a new Parser.
+// NewParser returns a new Parser.
 func NewParser(filename, src string) Parser {
 	return _newParser(filename, src, 1, nil)
 }

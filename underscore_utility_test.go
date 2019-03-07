@@ -19,7 +19,7 @@ func Test_underscore_utility_0(t *testing.T) {
 	})
 }
 
-// identity
+// Test_underscore_utility_1: identity
 func Test_underscore_utility_1(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -33,7 +33,7 @@ func Test_underscore_utility_1(t *testing.T) {
 	})
 }
 
-// random
+// Test_underscore_utility_2: random
 func Test_underscore_utility_2(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -56,7 +56,7 @@ func Test_underscore_utility_2(t *testing.T) {
 	})
 }
 
-// uniqueId
+// Test_underscore_utility_3: uniqueId
 func Test_underscore_utility_3(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -71,7 +71,7 @@ func Test_underscore_utility_3(t *testing.T) {
 	})
 }
 
-// times
+// Test_underscore_utility_4: times
 func Test_underscore_utility_4(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -92,7 +92,7 @@ func Test_underscore_utility_4(t *testing.T) {
 	})
 }
 
-// mixin
+// Test_underscore_utility_5: mixin
 func Test_underscore_utility_5(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -143,7 +143,7 @@ func Test_underscore_utility_7(t *testing.T) {
 	})
 }
 
-// template
+// Test_underscore_utility_8: template
 func Test_underscore_utility_8(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -293,7 +293,7 @@ func Test_underscore_utility_10(t *testing.T) {
 	})
 }
 
-// result calls functions and returns primitives
+// Test_underscore_utility_11: result calls functions and returns primitives
 func Test_underscore_utility_11(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -370,7 +370,7 @@ func Test_underscore_utility_14(t *testing.T) {
 	})
 }
 
-// interpolate evaluates code only once.
+// Test_underscore_utility_15: interpolate evaluates code only once.
 func Test_underscore_utility_15(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()

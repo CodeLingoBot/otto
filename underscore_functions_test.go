@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-// bind
+// Test_underscore_functions_0: bind
 func Test_underscore_functions_0(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -48,7 +48,7 @@ func Test_underscore_functions_0(t *testing.T) {
 	})
 }
 
-// partial
+// Test_underscore_functions_1: partial
 func Test_underscore_functions_1(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -65,7 +65,7 @@ func Test_underscore_functions_1(t *testing.T) {
 	})
 }
 
-// bindAll
+// Test_underscore_functions_2: bindAll
 func Test_underscore_functions_2(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -97,7 +97,7 @@ func Test_underscore_functions_2(t *testing.T) {
 	})
 }
 
-// memoize
+// Test_underscore_functions_3: memoize
 func Test_underscore_functions_3(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -122,7 +122,7 @@ func Test_underscore_functions_3(t *testing.T) {
 	})
 }
 
-// once
+// Test_underscore_functions_4: once
 func Test_underscore_functions_4(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -139,7 +139,7 @@ func Test_underscore_functions_4(t *testing.T) {
 	})
 }
 
-// wrap
+// Test_underscore_functions_5: wrap
 func Test_underscore_functions_5(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -164,7 +164,7 @@ func Test_underscore_functions_5(t *testing.T) {
 	})
 }
 
-// compose
+// Test_underscore_functions_6: compose
 func Test_underscore_functions_6(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
@@ -183,7 +183,7 @@ func Test_underscore_functions_6(t *testing.T) {
 	})
 }
 
-// after
+// Test_underscore_functions_7: after
 func Test_underscore_functions_7(t *testing.T) {
 	tt(t, func() {
 		test, _ := test_()
